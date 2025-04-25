@@ -12,6 +12,11 @@
 
 ## Asset Modules
    - 9 - Introduction to Asset Modules
+        ##### Four types of Asset Modules
+         - asset/resource   --> Create files into output directory. Example - large font file or large image
+         - asset/inline   --> Into the bundle as a data URI, not as seperate file. Example svg files & other small files etc
+         - asset   --> Combinatio of above. Automatically chooses based on size ( 8kb - configurable)
+         - asset/source --> Import as it is. Example - if u want to import .txt file as is.
    - 10 - Handling Images With Webpack
    - 11 - What is publicPath?
    - 12 - Asset/inline Module Type
@@ -20,6 +25,8 @@
 
 ## Loaders
    - 15 - What Is Webpack Loader?
+
+      ###### When a different asset is not able to import using inbuilt/out of the box asset modules, loader is used. 
    - 16 - Handling CSS With Webpack
    - 17 - Handling SASS
    - 18 - Using Latest JavaScript Features With Babel
@@ -27,6 +34,8 @@
 
 ## Plugins
    - 20 - What Is Webpack Plugin?
+   
+      ###### Plugin are additional javascript libraries that do everything that Loader can not do. Like minification etc.
    - 21 - Minification of the Resulting Webpack Bundle
    - 22 - Extracting CSS Into a Separate Bundle With mini-css-extract-plugin, Part 1
    - 23 - Extracting CSS Into a Separate Bundle, Part 2
